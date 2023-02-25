@@ -152,7 +152,7 @@ public class TemperatureConverter extends  javax.swing.JFrame
 
         if (val1.equals("Celsius") && val2.equals("Fahrenheit")){
             double cel = Double.parseDouble(textfield1.getText());
-            double fah = (double)((9.0/5.0)* cel + 32);
+            double fah = (double)(((9.0/5.0)* cel) + 32);
 
             textfield2.setText(String.valueOf(fah));
         }
