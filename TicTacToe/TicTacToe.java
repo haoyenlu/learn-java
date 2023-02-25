@@ -1,3 +1,5 @@
+package TicTacToe;
+
 /**
  * TicTacToe
  */
@@ -22,7 +24,7 @@ class TicTacToeFrame  extends JFrame
 
         statusBar = new JTextField("Player1's Turn");
         statusBar.setEditable(false);
-        add(statusBar,BorderLayout.SOUTH);
+        add(statusBar,BorderLayout.NORTH);
 
         setTitle("Tic Tac Toe!");
         setVisible(true);
