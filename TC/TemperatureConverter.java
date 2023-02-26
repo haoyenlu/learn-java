@@ -1,4 +1,4 @@
-package TemperatureConverter;
+package TC;
 public class TemperatureConverter extends  javax.swing.JFrame
 {
     private javax.swing.JButton button1;
@@ -9,7 +9,6 @@ public class TemperatureConverter extends  javax.swing.JFrame
     private javax.swing.JComboBox<String> combobox2;
     private javax.swing.JLabel label1;
     private javax.swing.JPanel panel1;
-    private javax.swing.JSpinner spinner1;
     private javax.swing.JTextField textfield1;
     private javax.swing.JTextField textfield2;
 
