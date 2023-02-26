@@ -62,8 +62,8 @@ class TicTacToeFrame  extends JFrame
             Integer [] index = (Integer[]) b.getClientProperty("INDEX");
             b.putClientProperty("OWNER", turn);
             Icon ico;
-            if (turn == 1) ico = new ImageIcon("images/circle.png");
-            else ico = new ImageIcon("images/cross.png");
+            if (turn == 1) ico = new ImageIcon("TTT/images/circle.png");
+            else ico = new ImageIcon("TTT/images/cross.png");
             b.setIcon(ico);
             b.setEnabled(false);
             boolean result = checkVictoryCondition(index);

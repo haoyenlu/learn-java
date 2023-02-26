@@ -2,12 +2,15 @@
 
 ### Run Temperature Converter
 ```
-cd TemperatureConverter
-java TemperatureConverter.TemperatureConverter
+java TC.TemperatureConverter
 ```
 
 ### Run TicTacToe game
 ```
-cd TicTacToe
-java TicTacToe.TicTacToe
+java TTT.TicTacToe
+```
+
+### Run Login GUI
+```
+java GUI.LoginGUI
 ```
